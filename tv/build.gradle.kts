@@ -77,7 +77,7 @@ android {
     defaultConfig {
         // Its own id, so the TV app is a separate install from the phone app
         // rather than an upgrade over it (or under it).
-        applicationId = "com.music.bitchord.tv"
+        applicationId = "com.kisetsu.ultra.tv"
         // 26 keeps reach wide; real-time blur (RenderEffect) kicks in on API 31+,
         // Haze falls back to a translucent scrim below that.
         minSdk = 26
@@ -99,10 +99,10 @@ android {
         // shared phone sources, so it gets no server.
         buildConfigField("String", "ADDON_AUTH_URL", "\"\"")
         // The TV APKs share a GitHub release with the phone ones and are told
-        // apart by name (BitChordTV-v1.8.apk, BitChordTV-v1.8_x86_64.apk), so
+        // apart by name (KisetsuUltraTV-v1.9.1-beta.apk, ..._x86_64.apk), so
         // the updater installs the TV app here, never the phone app. See
         // AppUpdateChecker.apkAssetUrl.
-        buildConfigField("String", "UPDATE_APK_PREFIX", "\"BitChordTV-\"")
+        buildConfigField("String", "UPDATE_APK_PREFIX", "\"KisetsuUltraTV-\"")
     }
 
     splits {
@@ -150,12 +150,12 @@ android {
     productFlavors {
         create("dev") {
             dimension = "env"
-            applicationId = "com.dev.bitchord.tv"
-            resValue("string", "app_name", "BitChord TV")
+            applicationId = "com.kisetsu.ultra.tv.dev"
+            resValue("string", "app_name", "Ultra TV [BETA] Dev")
         }
         create("prod") {
             dimension = "env"
-            resValue("string", "app_name", "BitChord TV")
+            resValue("string", "app_name", "Ultra TV [BETA]")
         }
     }
 

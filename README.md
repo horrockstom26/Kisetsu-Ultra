@@ -1,3 +1,6 @@
+> [!NOTE]
+> **Kisetsu Ultra [BETA]** is an unofficial fork of [BitChord](https://github.com/horrockstom26/Kisetsu-Ultra) by Kushagra Singh, published at [horrockstom26/Kisetsu-Ultra](https://github.com/horrockstom26/Kisetsu-Ultra) under the same GPLv3 license. It is **not affiliated with or endorsed by the original project**. The app installs as `com.kisetsu.ultra` (TV: `com.kisetsu.ultra.tv`), is signed with a different key than upstream BitChord, and shows **Ultra [BETA]** on the home screen. All credit for the app itself goes to the BitChord project and its contributors.
+
 <div align="center">
 
 <br/>
@@ -11,9 +14,9 @@
 
 <br/>
 
-[![Latest release](https://img.shields.io/github/v/release/kushagrasinghx/BitChord?style=for-the-badge&labelColor=0d1117)](https://github.com/kushagrasinghx/BitChord/releases)
-[![License](https://img.shields.io/github/license/kushagrasinghx/BitChord?style=for-the-badge&labelColor=0d1117)](https://github.com/kushagrasinghx/BitChord/blob/main/LICENSE)
-[![Downloads](https://img.shields.io/github/downloads/kushagrasinghx/BitChord/total?style=for-the-badge&labelColor=0d1117)](https://github.com/kushagrasinghx/BitChord/releases)
+[![Latest release](https://img.shields.io/github/v/release/horrockstom26/Kisetsu-Ultra?style=for-the-badge&labelColor=0d1117)](https://github.com/horrockstom26/Kisetsu-Ultra/releases)
+[![License](https://img.shields.io/github/license/horrockstom26/Kisetsu-Ultra?style=for-the-badge&labelColor=0d1117)](https://github.com/horrockstom26/Kisetsu-Ultra/blob/main/LICENSE)
+[![Downloads](https://img.shields.io/github/downloads/horrockstom26/Kisetsu-Ultra/total?style=for-the-badge&labelColor=0d1117)](https://github.com/horrockstom26/Kisetsu-Ultra/releases)
 [![Listening now](https://api.bitchord.kushagrasingh.in/api/stats/live/badge.svg)](https://api.bitchord.kushagrasingh.in/api/stats/live)
 
 <br/>
@@ -89,9 +92,9 @@
 
 <h1><a id="download"></a>Download</h1>
 
-<a href="https://github.com/kushagrasinghx/BitChord/releases" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/JMcrafter26/badges@main/src/assets/supported/android/cozy.svg" alt="Download for Android" height="55"/></a>
+<a href="https://github.com/horrockstom26/Kisetsu-Ultra/releases" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/JMcrafter26/badges@main/src/assets/supported/android/cozy.svg" alt="Download for Android" height="55"/></a>
 
-Grab the latest signed APK from the [Releases](https://github.com/kushagrasinghx/BitChord/releases) page. Sideloading requires enabling "Install unknown apps" for whichever app you download it with.
+Grab the latest signed APK from the [Releases](https://github.com/horrockstom26/Kisetsu-Ultra/releases) page. Sideloading requires enabling "Install unknown apps" for whichever app you download it with.
 
 
 </div>
@@ -108,8 +111,8 @@ We welcome contributions to BitChord! Please review our [Contributing Guide](CON
 
 ### Thanks to all contributors ❤
 
-<a href="https://github.com/kushagrasinghx/BitChord/graphs/contributors">
-  <img src="https://raw.githubusercontent.com/kushagrasinghx/BitChord/contributors/contributors.svg" />
+<a href="https://github.com/horrockstom26/Kisetsu-Ultra/graphs/contributors">
+  <img src="https://raw.githubusercontent.com/horrockstom26/Kisetsu-Ultra/contributors/contributors.svg" />
 </a>
 
 </div>

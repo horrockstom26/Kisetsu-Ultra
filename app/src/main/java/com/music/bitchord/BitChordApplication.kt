@@ -218,7 +218,7 @@ class BitChordApplication : Application(), SingletonImageLoader.Factory, Configu
                     chain.request().newBuilder()
                         .header(
                             "User-Agent",
-                            "BitChord/${BuildConfig.VERSION_NAME} (Android; +https://github.com/kushagrasinghx/BitChord)",
+                            "Kisetsu-Ultra/${BuildConfig.VERSION_NAME} (Android; +https://github.com/horrockstom26/Kisetsu-Ultra)",
                         )
                         .build(),
                 )
