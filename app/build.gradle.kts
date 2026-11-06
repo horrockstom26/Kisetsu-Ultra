@@ -183,6 +183,12 @@ android {
              */
             isMinifyEnabled = true
             isShrinkResources = true
+            // Drop native debug symbols from the shipped .so files �?" they are only
+            // useful for symbolicated crash reports, and they cost ~30% of the
+            // native library size. Crash reporting for a beta is not worth it.
+            ndk {
+                debugSymbolLevel = "none"
+            }
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
