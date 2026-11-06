@@ -283,6 +283,8 @@ interface PlayerSettingsSource {
     val smartTransitionWindow: StateFlow<TransitionWindow?>
     val spotifyCanvasAutoHide: StateFlow<Boolean>
     val syncedLyrics: StateFlow<Boolean>
+    /** The one line of lyric directly above the scrubber; the lyrics page itself is unaffected. */
+    val scrubberLyricLine: StateFlow<Boolean>
     val translationLanguage: StateFlow<String>
     val versionAlignmentInProgress: StateFlow<Boolean>
 

@@ -482,11 +482,11 @@ private fun HomeTitle(
                 onClick = onFestiveLogoClick,
             )
         } else {
-            Icon(
-                painter = painterResource(Res.drawable.ic_logo),
-                contentDescription = null,
-                tint = MaterialTheme.colorScheme.onBackground,
-                modifier = logoModifier,
+            // Kisetsu Ultra shows the devil where the upstream wordmark sat.
+            Text(
+                text = "\uD83D\uDE08",
+                fontSize = with(LocalDensity.current) { logoHeight.toSp() },
+                modifier = Modifier.padding(bottom = 14.dp),
             )
         }
         // "Listen now" is hidden for now; the wordmark above stays.

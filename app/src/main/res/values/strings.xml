@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Ultra [BETA]</string>
+    <string name="scrubber_lyric_line">Lyric line above scrubber</string>
+    <string name="scrubber_lyric_line_subtitle">Shows the current lyric above the seek bar. The full lyrics page is unchanged.</string>
     <string name="playback_channel_name">Now playing</string>
     <string name="download_channel_name">Downloads</string>
     <string name="download_channel_description">Songs being saved to your Music folder</string>
